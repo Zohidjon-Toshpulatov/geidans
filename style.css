@@ -1,0 +1,59 @@
+.bg-dark-blue{
+    background-color: #20334F;
+}
+
+.bg-orange{
+    background: #fb9a2d;
+}
+
+.bg-blue{
+    background-color: #365072;
+}
+
+.bg-light-grey{
+    background-color: #ddd9d6;
+}
+
+.text-light-blue{
+    color: #87C7EC;
+}
+
+.text-dark-blue{
+    color: #20334F;
+}
+
+.text-orange{
+    color: #fb9a2d;
+}
+
+.text-blue{
+    color: #365072;
+}
+
+.page-top-connect .email-icon,
+.page-top-connect .linkedin-icon{
+    width: 25px;
+    height: 20px;
+}
+
+.header{
+    background-image: url('./assets/GS_Website_1_Home_banner.png');
+}
+
+
+.header-content{
+    padding: 150px 0 200px 0; 
+}
+
+.header-content-heading{
+    line-height: 100%;
+}
+
+.with-border{
+    border: 1px solid #ddd9d6;
+}
+
+.star-icon{
+    width: 30px;
+}
+
