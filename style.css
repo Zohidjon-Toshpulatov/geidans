@@ -42,6 +42,7 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+    /* Home-page start */
   .header{
       background-image: url('./assets/GS_Website_1_Home_RESPONSIVE_banner.png');
       background-position: center;
@@ -80,9 +81,55 @@ body{
     .footer .email-icon{
         width: 25px;
     }
+    /* Home-page start */
+
+    /* What we do page start*/
+    .whatwedo-header{
+        background-image: url('./assets/GS_Website_1_WhatWeDo_RESPONSIVE_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .software-icon{
+        width: 50%;
+    }
+    
+    .btn-book-call{
+        width: 100%;
+    }
+    /* What we do page end*/
+
+    /* why us page start */
+    .whyus-header{
+        background-image: url('./assets/GS_Website_3_WhyUs_RESPONSIVE_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* why us page end */
+
+     /* About page start  */
+
+    .about-header{
+        background-image: url('./assets/GS_Website_3_OurBackground_RESPONSIVE_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* About page end */
+     /* Team page start  */
+     .team-header{
+         background-image: url('./assets/GS_Website_3_SeniorTeam_RESPONSIVE_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+    /* Team page end */
 }
 
 @media screen and (min-width: 789px){
+    /* Home-page start */
     .header{
         background-image: url('./assets/GS_Website_1_Home_banner.png');
     }
@@ -118,6 +165,63 @@ body{
     .footer .email-icon{
         width: 25px;
     }
+
+    /* Home page end  */
+
+    /* What we do page start*/
+    .whatwedo-header{
+        background-image: url('./assets/GS_Website_2_WhatWeDo_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .software-icon{
+        width: 250px;
+        height: 250px;
+
+    }
+    /* What we do page end*/
+
+    /* About page start  */
+
+    .about-header{
+        background-image: url('./assets/GS_Website_3_OurBackground_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* About page end */
+
+    /* Team page start  */
+    .team-header{
+        background-image: url('./assets/GS_Website_3_SeniorTeam_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+
+     .card-image-top-over{
+        opacity: 0.1;
+        background: white;
+        width: 100%;
+        height: 517px;
+     }
+
+     .card-image-top:hover{
+         
+     }
+    /* Team page end */
+
+    /* why us page start */
+    .whyus-header{
+        background-image: url('./assets/GS_Website_3_WhyUs_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* why us page end */
+
 }
 
 
