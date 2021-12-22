@@ -1,3 +1,6 @@
+body{
+    font-family: 'montserrat', serif;
+}
 .bg-dark-blue{
     background-color: #20334F;
 }
@@ -30,30 +33,101 @@
     color: #365072;
 }
 
+
+
 .page-top-connect .email-icon,
 .page-top-connect .linkedin-icon{
     width: 25px;
     height: 20px;
 }
 
-.header{
-    background-image: url('./assets/GS_Website_1_Home_banner.png');
+@media only screen and (max-width: 768px) {
+  .header{
+      background-image: url('./assets/GS_Website_1_Home_RESPONSIVE_banner.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .header-content{
+        padding: 120px 0 170px 0; 
+    }
+
+    .header-content-heading{
+        line-height: 100%;
+    }
+
+    .with-border{
+        border: 1px solid #ddd9d6;
+    }
+
+    .star-icon{
+        font-size: 30px;
+    }
+
+    .section-help img{
+        width: 200px;
+    }
+
+    .section-solution{
+        background-image: url('./assets/GS_Website_1_Home_motherboard_banner.png');
+    }
+
+    .section-contact{
+        background-image: url('./assets/GS_Website_1_Home_Want_to_work_better_banner.png');
+    }
+
+    .footer .email-icon{
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 789px){
+    .header{
+        background-image: url('./assets/GS_Website_1_Home_banner.png');
+    }
+
+    .header-content{
+        padding: 150px 0 200px 0; 
+    }
+    .header-content-heading{
+        line-height: 100%;
+    }
+
+    .with-border{
+        border: 1px solid #ddd9d6;
+    }
+
+    .star-icon{
+        width: 30px;
+        height: 30px;
+    }
+
+    .section-help img{
+        width: 200px;
+    }
+
+    .section-solution{
+        background-image: url('./assets/GS_Website_1_Home_motherboard_banner.png');
+    }
+
+    .section-contact{
+        background-image: url('./assets/GS_Website_1_Home_Want_to_work_better_banner.png');
+    }
+
+    .footer .email-icon{
+        width: 25px;
+    }
 }
 
 
-.header-content{
-    padding: 150px 0 200px 0; 
-}
 
-.header-content-heading{
-    line-height: 100%;
-}
 
-.with-border{
-    border: 1px solid #ddd9d6;
-}
 
-.star-icon{
-    width: 30px;
-}
+
+
+
+
+
+
 
