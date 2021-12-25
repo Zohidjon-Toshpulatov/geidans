@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&family=Numans&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&family=Passion+One:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Geidans Solutions</title>
 </head>
 
 <body>
-    <div class="d-none d-lg-block container-fluid bg-dark-blue py-2">
-        <div class="page-top container d-flex justify-content-between">
+    <div class="page-top d-none d-lg-block container-fluid bg-dark-blue py-2">
+        <div class="page-top container d-flex justify-content-between align-items-center">
             <p class="mb-0 text-white">The software specialists solving everyday SME problems</p>
-            <div class="page-top-connect d-flex align-items-center">
+            <div class="page-top-social d-flex align-items-center">
                 <a href="#" class="text-decoration-none text-light-blue d-flex align-items-center">
                     <img class="email-icon me-2" src="./assets/Icon images/Email_icon.png " alt="message-icon">
                     info@geidans.co.uk
@@ -36,12 +36,14 @@
     </div>
 
     <!-- Section Header start  -->
-    <section class="team-header">
+    <section class="contact-header px-3">
 
-        <nav class=" navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="home.html">Geidans Solutions</a>
-                <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse"
+        <nav class="header-nav navbar navbar-expand-lg navbar-dark">
+            <div class="container p-0">
+                <a class="navbar-brand" href="home.html">
+                    <img src="./assets/GS_logo_Colour_for_blue_background.png" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler text-white border-0 px-1" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -58,130 +60,109 @@
                             <a class="nav-link text-uppercase text-white" href="about.html">about us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white">careers</a>
+                            <a class="nav-link text-uppercase text-white" href="career.html">careers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase text-white">concact</a>
+                            <a class="nav-link text-uppercase text-white" href="contact.html">contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="header-content container text-white px-3">
+        <div class="contact-header-content container text-white py-4 px-0">
             <div class="row">
-                <div class='col-md-6'>
-                    <p class="text-white fw-bold">Senior team</p>
-                    <h2 class="header-content-heading text-light-blue fw-bold mb-4">
-                        Pullquote from the page
-                        <br class="d-xs-block d-md-none" />
-                        can go in this space
-                        <br class="d-xs-none d-md-block" />
-                        here.
-                    </h2>
+                <div class='col-12 col-md-6'>
+                    <p class="d-block d-md-none text-white fw-bolder">Contact us</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Section Header end  -->
-    <!-- Section team card  -->
-    <section class="py-4 py-md-5 px-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="card border-0">
-                        <img src="./assets/Team portraits/Andrew_portrait.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-blue fw-bold">Andrew Geidans</h5>
-                            <p class="card-text text-blue">
-                                Founder and MD,
-                                <br>
-                                Technical Consultant
-                            </p>
-                            <a href="#" class="btn">
-                                <span style="border-radius: 20px;" class="bg-dark-blue text-white px-2 py-1">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </span>
-                            </a>
-                        </div>
+
+    <section class="py-4 p-md-5 px-3">
+        <form>
+            <div class="container p-0">
+                <h3 class="text-blue fw-bold mb-4">Arrange an inital, no obligation chat.</h3>
+                <p class="fw-light text-blue">
+                    Fields marked with an <span class="text-danger">*</span> are required
+                </p>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <label for="name" class="form-label text-blue">
+                            Name
+                            <span class=" text-danger">*</span>
+                        </label>
+                        <input type="text" class="form-control rounded-0" id="name">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <label for="company" class="form-label text-blue">
+                            Company
+                            <span class="text-danger">*</span>
+                        </label>
+                        <input type="text" class="form-control rounded-0" id="company">
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="card border-0 position-relative">
-                        <img src="./assets/Team portraits/Jana_portrait.png" class="card-img-top" alt="...">
-                        <div class="card-image-top-over"></div>
-                        <div class="card-body">
-                            <h5 class="card-title text-blue fw-bold">Jana Zaragotska</h5>
-                            <p class="card-text text-blue">
-                                Operations Director
-                            </p>
-                            <a href="#" class="btn">
-                                <span style="border-radius: 20px;" class="bg-dark-blue text-white px-2 py-1">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </span>
-                            </a>
-                        </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <label for="email" class="form-label text-blue">
+                            Email
+                            <span class=" text-danger">*</span>
+                        </label>
+                        <input type="email" class="form-control rounded-0" id="email">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <label for="contact-number" class="form-label text-blue">
+                            Contact Number
+                            <span class="text-danger">*</span>
+                        </label>
+                        <input type="text" class="form-control rounded-0" id="contact-number">
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="card border-0">
-                        <img src="./assets/Team portraits/Pavel_portrait.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-blue fw-bold">Pavel Maksimov</h5>
-                            <p class="card-text text-blue">
-                                Technical Director
-                            </p>
-                            <a href="#" class="btn">
-                                <span style="border-radius: 20px;" class="bg-dark-blue text-white px-2 py-1">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </span>
-                            </a>
-                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <label for="message" class="form-label text-blue">Message</label>
+                        <textarea class="form-control rounded-0" id="message" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row justify-content-between pt-5">
+                    <div>
+                        <p class="fw-bolder text-blue">Geidans Solutions</p>
+                        <p class="text-blue">Address line 1</p>
+                        <p class="text-blue">Address line 2</p>
+                        <p class="text-blue">Address line 3</p>
+                    </div>
+                    <div>
+                        <p href="#" class="text-blue text-decoration-none d-block">
+                            <span><i class="fa fa-phone-alt"></i></span>
+                            <span class="ms-2">+44 (0) 3333 444 151</span>
+                        </p>
+                        <p href="#" class="text-blue decoration-none d-block">
+                            <i class="fas fa-envelope"></i>
+                            <span class="ms-2">hello@geidans.co.uk</span>
+                        </p>
+                    </div>
+                    <div>
+                        <button class="btn btn-submit bg-orange px-5 fw-bolder text-white rounded-0">Submit</button>
                     </div>
                 </div>
             </div>
-        </div>
+
+        </form>
+
     </section>
-    <!-- Section Team end  -->
-    <!-- Section Review start -->
-    <section class="py-4 py-md-5 px-3 bg-orange">
-        <div class="container">
-            <div class="section-header d-flex align-items-top">
-                <h2 class="ms-md-3 fw-bold text-white">
-                    <span class="left-quote">"</span>
-                    GS ynderstood our challenges
-                    straight away"
-                </h2>
-            </div>
-            <p class="text-blue fw-normal">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus eos ipsum tenetur enim ut
-                excepturi accusamus veritatis dignissimos unde cupiditate eum, neque autem nisi nam velit blanditiis
-                similique voluptatem soluta. Mollitia atque tenetur temporibus provident numquam perspiciatis sit?
-                Optio magnam dolorem aut odit nulla voluptatum eligendi voluptates ea hic, molestias, nemo error
-                deleniti! Lorem ipsum dolor
-            <div class="d-flex mb-3">
-                <span class="star-icon text-white me-2"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white me-2"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white me-2"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white me-2"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white"><i class="fas fa-star-half"></i></span>
-            </div>
-            <p class="text-white fw-bolder"> 4.5 on Google reviews</p>
-        </div>
-    </section>
-    <!-- Section Review end -->
 
     <!-- Section Contact start -->
-    <section class="section-contact py-4 py-md-5 px-3">
-        <div class="container">
+    <section class="section-contact px-3">
+        <div class="container p-0">
             <div class="row">
                 <div class="col-md-7">
-                    <p class="text-blue">
+                    <h4 class="text-blue fw-bolder">
                         Want to work better, grow faster and compete on a bigger playing field?
-                    </p>
-                    <p class="text-white">
+                    </h4>
+                    <h4 class="text-white fw-bolder">
                         Give us a call on
                         <span class="text-blue d-block d-md-inline-block">+44 (0) 3333 444 151</span>
-                    </p>
+                    </h4>
                 </div>
             </div>
         </div>
@@ -190,42 +171,45 @@
 
     <!-- Footer start  -->
     <footer class="footer bg-blue py-4 px-3 px-lg-0">
-        <div class="container">
+        <div class="container p-0">
             <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <h5 class="text-white fw-bold text-uppercase">
                         get in touch
                     </h5>
-                    <a href="#" class="text-white text-decoration-none d-block mb-2">
+                    <a href="#" class="fw-light text-white text-decoration-none d-block mb-2">
                         <span><i class="fa fa-phone-alt"></i></span>
                         <span class="ms-2">+44 (0) 3333 444 151</span>
                     </a>
-                    <a href="#" class="text-white text-decoration-none d-block mb-2">
+                    <a href="#" class="fw-light text-white text-decoration-none d-block mb-2">
                         <img src="./assets/Icon images/Email_icon.png" alt="" class="email-icon">
                         <span class="ms-2">hello@geidans.co.uk</span>
                     </a>
-                    <p class="text-white mb-0">Address line 1</p>
-                    <p class="text-white mb-0">Address line 2</p>
-                    <p class="text-white mb-0">Address line 3</p>
+                    <p class="fw-light text-white mb-0">Address line 1</p>
+                    <p class="fw-light text-white mb-0">Address line 2</p>
+                    <p class="fw-light text-white mb-0">Address line 3</p>
                 </div>
-                <div class="col-lg-4 d-none d-lg-block ">
+                <div class="col-12 col-lg-4 d-none d-lg-block ">
                     <h5 class="text-white fw-bold text-uppercase">
                         link column here
                     </h5>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-2">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-2">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-2">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-2">Link 1</a>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <h5 class="text-white fw-bold text-uppercase">
                         services
                     </h5>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Systems integration</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Bespoke applications</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Consulting</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Data migration</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Application refactoring</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-2">Systems
+                        integration</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-2">Bespoke
+                        applications</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-2">Consulting</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-2">Data migration</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-2">Application
+                        refactoring</a>
                 </div>
             </div>
         </div>

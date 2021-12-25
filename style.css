@@ -1,5 +1,5 @@
 body{
-    font-family: 'montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .bg-dark-blue{
     background-color: #20334F;
@@ -15,6 +15,10 @@ body{
 
 .bg-light-grey{
     background-color: #ddd9d6;
+}
+
+.bg-light-blue{
+    background-color: #87C7EC;
 }
 
 .text-light-blue{
@@ -33,6 +37,9 @@ body{
     color: #365072;
 }
 
+.vacancie-card{
+    border-top: 2px solid #87C7EC;
+}
 
 
 .page-top-connect .email-icon,
@@ -41,17 +48,34 @@ body{
     height: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-    /* Home-page start */
-  .header{
-      background-image: url('./assets/GS_Website_1_Home_RESPONSIVE_banner.png');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-  }
+.page-top p, 
+.page-top-social a{
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 100%;
+}
 
-  .header-content{
-        padding: 120px 0 170px 0; 
+
+.page-top-social .email-icon,
+.page-top-social .linkedin-icon{
+    width: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 200px;
+    }
+
+    /* Home-page start */
+    .home-header{
+        background-image: url('./assets/GS_Website_1_Home_RESPONSIVE_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header-content{
+        padding: 70px 0 90px 0; 
     }
 
     .header-content-heading{
@@ -71,17 +95,37 @@ body{
     }
 
     .section-solution{
-        background-image: url('./assets/GS_Website_1_Home_motherboard_banner.png');
+        background-color: #365072;
     }
 
+    /* Section review start  */
+    .section-review .left-quote,
+    .section-review .right-quote{
+        font-family: 'Passion One', cursive;
+        line-height: 100%;
+    }
+
+    .section-review-heading{
+        line-height: 100%;
+    }
+    .fa-star, .fa-star-half{
+        font-size: 40px;
+    }
+    /* Section review start  */
+
     .section-contact{
-        background-image: url('./assets/GS_Website_1_Home_Want_to_work_better_banner.png');
+        background-image: url('./assets/section-contact.png');
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
 
     .footer .email-icon{
         width: 25px;
     }
-    /* Home-page start */
+
 
     /* What we do page start*/
     .whatwedo-header{
@@ -90,6 +134,7 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
     }
+
 
     .software-icon{
         width: 50%;
@@ -110,7 +155,6 @@ body{
     /* why us page end */
 
      /* About page start  */
-
     .about-header{
         background-image: url('./assets/GS_Website_3_OurBackground_RESPONSIVE_banner.png');
         background-position: center;
@@ -118,6 +162,20 @@ body{
         background-repeat: no-repeat;
     }
     /* About page end */
+
+    /* Career page start  */
+    .career-header{
+        background-image: url('./assets/GS_Website_4_Careers_RESPONSIVE_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .btn-view-detail{
+        width: 100%;
+    }
+    /* Career page end */
+
      /* Team page start  */
      .team-header{
          background-image: url('./assets/GS_Website_3_SeniorTeam_RESPONSIVE_banner.png');
@@ -126,12 +184,59 @@ body{
         background-repeat: no-repeat;
      }
     /* Team page end */
+
+    /* Contact Page start  */
+    .contact-header{
+        background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    .btn-submit{
+        width: 100%;
+    }
+    /* Contact Page end */
 }
 
 @media screen and (min-width: 789px){
+    .logo{
+         width: 350px;
+     }
+    /* Section review start  */
+    .section-review .left-quote,
+    .section-review .right-quote{
+        font-family: 'Passion One', cursive;
+    }
+
+    .section-review-heading{
+        line-height: 90%;
+    }
+
+    .section-review .left-quote{
+        margin-top: 2.5rem;
+        font-size: 9rem;
+        line-height: 20%;
+
+    }
+    .fa-star, .fa-star-half{
+        font-size: 40px;
+    }
+    /* Section review start  */
+
+
     /* Home-page start */
-    .header{
+    .home-header{
         background-image: url('./assets/GS_Website_1_Home_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .home-header .btn{
+        width: 200px;
     }
 
     .header-content{
@@ -156,10 +261,18 @@ body{
 
     .section-solution{
         background-image: url('./assets/GS_Website_1_Home_motherboard_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .section-contact{
         background-image: url('./assets/GS_Website_1_Home_Want_to_work_better_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .footer .email-icon{
@@ -174,6 +287,16 @@ body{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .card{
+        height: 400px;
+    }
+
+    .card-img-top{
+        width: 70%;
+        margin: 35px auto;
+        height: 200px;
     }
     
     .software-icon{
@@ -192,6 +315,39 @@ body{
         background-repeat: no-repeat;
     }
     /* About page end */
+
+    /* Career page start  */
+    .career-header{
+        background-image: url('./assets/GS_Website_2_WhatWeDo_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    .career-card .card-img-top{
+        height: 300px;
+    }
+
+    .career-card .video{
+        height: 100%;
+    }
+    
+    /* Career page end */
+
+    /* Contact Page start  */
+    .contact-header{
+        background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+
+    .btn-submit{
+        width: 100%;
+    }
+    /* Contact Page end */
 
     /* Team page start  */
     .team-header{
