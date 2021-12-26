@@ -37,6 +37,10 @@ body{
     color: #365072;
 }
 
+.header-nav .nav-link{
+    font-size: 16px;
+}
+
 .vacancie-card{
     border-top: 2px solid #87C7EC;
 }
@@ -75,11 +79,7 @@ body{
     }
 
     .header-content{
-        padding: 70px 0 90px 0; 
-    }
-
-    .header-content-heading{
-        line-height: 100%;
+        padding: 80px 0 110px 0; 
     }
 
     .with-border{
@@ -126,6 +126,9 @@ body{
         width: 25px;
     }
 
+    .footer-copy-link{
+        border: none !important;
+    }
 
     /* What we do page start*/
     .whatwedo-header{
@@ -135,6 +138,7 @@ body{
         background-repeat: no-repeat;
     }
 
+    
 
     .software-icon{
         width: 50%;
@@ -183,6 +187,24 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
      }
+
+    .team-card .card-top{
+        height: 300px;
+        position: relative;
+    }
+
+    .team-card .card-body{
+        background-color: #ddd9d6;
+    }
+
+    .team-card .card-top-img{
+        z-index: 1;
+        /* position: relative; */
+    }
+
+    .team-card .card-top-overlay{
+        display: none;
+    }
     /* Team page end */
 
     /* Contact Page start  */
@@ -279,6 +301,10 @@ body{
         width: 25px;
     }
 
+    .footer-copy-link{
+        border-right: 2px solid white;
+    }
+
     /* Home page end  */
 
     /* What we do page start*/
@@ -355,18 +381,56 @@ body{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-     }
+    }
 
-     .card-image-top-over{
-        opacity: 0.1;
-        background: white;
+    .team-card{
+        height: 700px;
+    }
+
+    .team-card .card-top{
+        height: 350px;
+        position: relative;
+    }
+
+    .team-card .card-top-img{
+        z-index: 1;
+        position: relative;
+    }
+
+    .team-card .card-top-overlay{
+        position: absolute;
+        top: 0;
+        z-index: 20;
         width: 100%;
-        height: 517px;
-     }
+        height: 100%;
+        background-size: cover;
+    }
 
-     .card-image-top:hover{
-         
-     }
+    .team-card .card-top-overlay p{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .team-card .card-top-overlay-1{
+        background-image: url('./assets/Teamportraits/Andrew_portrait_DARK.png');
+        display: none;
+    }
+
+    .team-card .card-top-overlay-2{
+        background-image: url('./assets/Teamportraits/Jana_portrait_DARK.png');
+        display: none;
+    }
+
+    .team-card .card-top-overlay-3{
+        background-image: url('./assets/Teamportraits/Pavel_portrait_DARK.png');
+        display: none;
+    }
+
+    .card-top:hover .card-top-overlay{
+        display: block;
+    }
     /* Team page end */
 
     /* why us page start */
