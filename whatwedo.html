@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/Icon images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&family=Numans&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&family=Passion+One:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Geidans Solutions</title>
@@ -27,7 +27,7 @@
                     <img class="email-icon me-2" src="./assets/Icon images/Email_icon.png " alt="message-icon">
                     info@geidans.co.uk
                 </a>
-                <a href="#" class="text-decoration-none text-light-blue ms-4 d-flex align-items-center">
+                <a href="#" class="text-decoration-none text-light-blue ms-4 d-flex align-items-center fw-bold">
                     Follow us on:
                     <img class="linkedin-icon ms-2" src="./assets/Icon images/Linkedin_icon.png" alt="message-icon">
                 </a>
@@ -39,8 +39,8 @@
     <section class="whatwedo-header px-3">
 
         <nav class="header-nav navbar navbar-expand-lg navbar-dark">
-            <div class="container p-0">
-                <a class="navbar-brand" href="home.html">
+            <div class="container">
+                <a class="navbar-brand me-0" href="home.html">
                     <img src="./assets/GS_logo_Colour_for_blue_background.png" alt="logo" class="logo">
                 </a>
                 <button class="navbar-toggler text-white border-0 px-1" type="button" data-bs-toggle="collapse"
@@ -49,26 +49,26 @@
                     <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase active text-white" aria-current="page"
-                                href="whatwedo.html">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder">
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link text-uppercase text-white" href="whatwedo.html">
                                 what we do
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-lg-2">
                             <a class="nav-link text-uppercase text-white" href="about.html">about us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-lg-2">
                             <a class="nav-link text-uppercase text-white" href="career.html">careers</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item px-lg-2">
                             <a class="nav-link text-uppercase text-white" href="contact.html">contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
         <div class="header-content container text-white">
             <div class="row">
                 <div class='col-md-6'>
@@ -285,17 +285,27 @@
     <!-- Section details end  -->
 
     <!-- Section Contact start -->
+    <!-- Section Contact start -->
     <section class="section-contact px-3">
-        <div class="container p-0">
+        <div class="container">
             <div class="row">
-                <div class="col-md-7">
-                    <p class="text-blue">
+                <div class="col-md-7 d-none d-lg-block">
+                    <h3 class="text-blue fw-bold mb-3 ">
                         Want to work better, grow faster and compete on a bigger playing field?
-                    </p>
-                    <p class="text-white">
+                    </h3>
+                    <h3 class="text-white fw-bolder lh-1 mb-0">
                         Give us a call on
                         <span class="text-blue d-block d-md-inline-block">+44 (0) 3333 444 151</span>
-                    </p>
+                    </h3>
+                </div>
+                <div class="col-md-7 d-block d-lg-none">
+                    <h3 class="text-blue mb-0 ">
+                        Want to work better, grow faster and compete on a bigger playing field?
+                    </h3>
+                    <h3 class="text-blue fw-bolder lh-1 mb-0">
+                        Give us a call on
+                        <span class="d-block d-md-inline-block">+44 (0) 3333 444 151</span>
+                    </h3>
                 </div>
             </div>
         </div>
@@ -303,43 +313,46 @@
     <!-- Section Contact end -->
 
     <!-- Footer start  -->
-    <footer class="footer bg-blue py-4 px-3 px-lg-0">
-        <div class="container p-0">
+    <footer class="footer bg-blue py-5 px-3 px-lg-0">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <h5 class="text-white fw-bold text-uppercase">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="text-white fw-bold text-uppercase mb-4">
                         get in touch
                     </h5>
-                    <a href="#" class="text-white text-decoration-none d-block mb-2">
+                    <a href="#" class="fw-light text-white text-decoration-none d-block mb-3">
                         <span><i class="fa fa-phone-alt"></i></span>
                         <span class="ms-2">+44 (0) 3333 444 151</span>
                     </a>
-                    <a href="#" class="text-white text-decoration-none d-block mb-2">
+                    <a href="#" class="fw-light text-white text-decoration-none d-block mb-3">
                         <img src="./assets/Icon images/Email_icon.png" alt="" class="email-icon">
                         <span class="ms-2">hello@geidans.co.uk</span>
                     </a>
-                    <p class="text-white mb-0">Address line 1</p>
-                    <p class="text-white mb-0">Address line 2</p>
-                    <p class="text-white mb-0">Address line 3</p>
+                    <p class="text-white mb-2 fw-light">Address line 1</p>
+                    <p class="text-white mb-2 fw-light">Address line 2</p>
+                    <p class="text-white mb-0 fw-light">Address line 3</p>
                 </div>
                 <div class="col-lg-4 d-none d-lg-block ">
-                    <h5 class="text-white fw-bold text-uppercase">
+                    <h5 class="text-white fw-bold text-uppercase mb-4">
                         link column here
                     </h5>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-3">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-3">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-3">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block">Link 1</a>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <h5 class="text-white fw-bold text-uppercase">
+                    <h5 class="text-white fw-bolder text-uppercase mt-4 mt-md-0 mb-4">
                         services
                     </h5>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Systems integration</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Bespoke applications</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Consulting</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Data migration</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Application refactoring</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Systems
+                        integration</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Bespoke
+                        applications</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Consulting</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Data migration</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0">Application
+                        refactoring</a>
                 </div>
             </div>
         </div>
@@ -348,23 +361,28 @@
     <!-- Footer end -->
 
     <!-- Section Copyright start -->
-    <div class="footer-copyright p-3 px-md-0  bg-dark-blue">
+    <div class="footer-copyright px-3 px-md-0 pt-4 py-lg-3  bg-dark-blue">
         <div class="container p-0">
             <div class="row">
                 <div class="col-md-9 mx-auto">
-                    <div class="d-flex flex-column align-items-center flex-md-row justify-content-between">
+                    <div class="d-flex flex-column align-items-center flex-md-row justify-content-between text-center">
                         <p class="mb-0 text-white order-2 order-md-1">&copy; Geidans Solutions 2021</p>
                         <div class="d-flex flex-column flex-lg-row order-1 order-md-2">
-                            <a href="#" class="footer-copy-link text-decoration-none text-white d-block px-2">
+                            <a href="#"
+                                class="footer-copy-link text-decoration-none text-white d-block px-3 lh-1 py-1 py-lg-0 ">
                                 Privacy & GDPR
                             </a>
-                            <a href="#" class="footer-copy-link text-decoration-none text-white d-block px-2">
+                            <a href="#"
+                                class="footer-copy-link text-decoration-none text-white d-block px-3 lh-1 py-1 py-lg-0 ">
                                 Terms
                             </a>
-                            <a href="#" class="footer-copy-link text-decoration-none text-white d-block px-2">
+                            <a href="#"
+                                class="footer-copy-link text-decoration-none text-white d-block px-3 lh-1 py-1 py-lg-0 ">
                                 Legal Notice
                             </a>
-                            <a href="#" class="text-decoration-none text-white d-block px-2">Accessibility </a>
+                            <a href="#"
+                                class="text-decoration-none text-white d-block ps-3 lh-1 py-1 py-lg-0 ">Accessibility
+                            </a>
                         </div>
                     </div>
                 </div>

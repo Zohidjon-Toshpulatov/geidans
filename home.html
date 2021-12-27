@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./assets/Icon images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -14,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&family=Passion+One:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <title>Geidans Solutions</title>
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                     <img class="email-icon me-2" src="./assets/Icon images/Email_icon.png " alt="message-icon">
                     info@geidans.co.uk
                 </a>
-                <a href="#" class="text-decoration-none text-light-blue ms-4 d-flex align-items-center">
+                <a href="#" class="text-decoration-none text-light-blue ms-4 d-flex align-items-center fw-bold">
                     Follow us on:
                     <img class="linkedin-icon ms-2" src="./assets/Icon images/Linkedin_icon.png" alt="message-icon">
                 </a>
@@ -38,7 +40,7 @@
 
         <nav class="header-nav navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="home.html">
+                <a class="navbar-brand me-0" href="home.html">
                     <img src="./assets/GS_logo_Colour_for_blue_background.png" alt="logo" class="logo">
                 </a>
                 <button class="navbar-toggler text-white border-0 px-1" type="button" data-bs-toggle="collapse"
@@ -66,22 +68,24 @@
                 </div>
             </div>
         </nav>
-        <div class="header-content container text-white">
+
+        <div class="header-content container text-white px-2">
             <div class="row">
-                <div class='col-md-6'>
-                    <h2 class="header-content-heading lh-1 fw-bold mb-4">
+                <div class='col-12 col-md-6'>
+                    <h1 class="header-content-heading lh-1 fw-bold mb-3 mb-lg-4">
                         Get the best
-                        <br class="d-xs-block d-md-none" />
+                        <br class="d-block d-lg-none" />
                         out of
-                        <br class="d-xs-none d-md-block" />
+                        <br class="d-none d-lg-block" />
                         your
-                        <br class="d-xs-block d-md-none" /> business
-                    </h2>
-                    <h6>Geidans Solutions</h6>
-                    <h6>Now You Can.</h6>
-                    <div class="mt-4 d-none d-md-block">
+                        <br class="d-block d-lg-none" />
+                        business
+                    </h1>
+                    <h5 class="mb-1">Geidans Solutions</h5>
+                    <h5>Now You Can.</h5>
+                    <div class="mt-4 d-none d-lg-block">
                         <button
-                            class="btn header-content-btn with-border text-uppercase text-white fw-bolder rounded-0 me-3 py-2">
+                            class="btn header-content-btn with-border text-uppercase text-white fw-bold rounded-0 me-3 py-2">
                             our services
                         </button>
                         <button
@@ -95,26 +99,27 @@
     </section>
     <!-- Section Header end  -->
     <!-- Section Problem Solver start  -->
-    <section class="py-4 py-md-5 px-3">
+    <section class="section-problem-solver px-3">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-4 text-left pe-lg-0">
-                    <h2 class="text-blue fw-bold">Problem solvers</h2>
+                <div class="col-12 col-lg-4 text-left pe-lg-0 mb-4">
+                    <h2 class="text-blue fw-bold mb-2">Problem solvers</h2>
                     <h2 class="text-blue fw-bold">Process fixers</h2>
                 </div>
                 <div class="col-12 col-lg-6 ps-lg-0">
-                    <h4 class="text-orange fw-bolder">
+                    <h4 class="text-orange fw-bolder mb-2">
                         As a small or medium sized business
                         <br class="d-none d-md-block">
                         owner, you've come a long way fast
                     </h4>
-                    <p class="text-blue">
+                    <p class="text-blue mb-5 mb-lg-4">
                         You're poised for a success. You've invested time, money and
                         effort in people, technology and systems to increase efficiency.
                     </p>
-                    <h4 class="text-orange fw-bolder mt-4">So why isn't the business performing?</h4>
-                    <p class="text-blue mb-1">Geidans Solutions are problem solvers and process fixers for SMEs</p>
-                    <p class="text-blue mb-1">
+                    <h4 class="text-orange fw-bolder mb-2">So why isn't the business performing?</h4>
+                    <p class="text-blue mb-4 mb-lg-2">Geidans Solutions are problem solvers and process fixers for SMEs
+                    </p>
+                    <p class="text-blue mb-4 mb-lg-2">
                         We believe in empowering SMEs by impoving how they work.
                         The reward to you is growth. The reward to us is making that happen for you.
                         If it's thinkable, it's possible.
@@ -122,7 +127,8 @@
                     <p class="text-blue">
                         If your business processes are holding you back from what
                         you could achieve - we can help you take on the big boys
-                        And win
+
+                        <span class="d-block mt-4 mt-lg-2">And win.</span>
                     </p>
                     <div class="mt-4 d-block d-md-none">
                         <button class="btn with-border text-uppercase text-blue fw-bold w-100 mb-3 rounded-0">
@@ -138,16 +144,17 @@
     </section>
     <!-- Section Problem Solver end  -->
     <!-- Section Review start -->
-    <section class="section-review py-4 py-md-5 px-3 bg-orange">
+    <section class="section-review px-3 bg-orange">
         <div class="container">
-            <div class="fw-bold text-white d-flex align-items-top">
-                <h1 class="left-quote align-self-bottom">&#8220;</h1>
-                <h2 class="section-review-heading fw-bolder ms-md-2 ">
+            <div class="fw-bold text-white d-flex align-items-top mb-4">
+                <h1 class="left-quote align-self-bottom d-block d-lg-none">&#8220;</h1>
+                <img src="./assets/Icon images/“.png" alt="quote" class="d-none d-lg-block">
+                <h2 class="section-review-heading fw-bold ms-lg-2 lh-1">
                     GS ynderstood our challenges
                     straight away<span class="right-quote">&#8221;</span>
                 </h2>
             </div>
-            <p class="text-blue mb-5">
+            <p class="text-blue mb-5 fw-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus eos ipsum tenetur enim ut
                 excepturi accusamus veritatis dignissimos unde cupiditate eum, neque autem nisi nam velit blanditiis
                 similique voluptatem soluta. Mollitia atque tenetur temporibus provident numquam perspiciatis sit?
@@ -155,42 +162,43 @@
                 deleniti! Lorem ipsum dolor
             </p>
             <div class="d-flex mb-3">
-                <span class="star-icon text-white me-2 me-md-4"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white me-2 me-md-4"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white me-2 me-md-4"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white me-2 me-md-4"><i class="fas fa-star"></i></span>
-                <span class="star-icon text-white"><i class="fas fa-star-half"></i></span>
+                <img src="./assets/Icon images/star_icon.png" alt="star" class="star-icon me-2 ">
+                <img src="./assets/Icon images/star_icon.png" alt="star" class="star-icon me-2 ">
+                <img src="./assets/Icon images/star_icon.png" alt="star" class="star-icon me-2 ">
+                <img src="./assets/Icon images/star_icon.png" alt="star" class="star-icon me-2 ">
+                <img src="./assets/Icon images/star-half.png" alt="star" class="star-icon-half">
             </div>
-            <p class="text-white fw-bolder"> 4.5 on Google reviews</p>
+            <p class="text-white fw-bolder mb-0"> 4.5 on Google reviews</p>
         </div>
     </section>
     <!-- Section Review end -->
 
     <!-- Section Why us start  -->
-    <section class="py-4 py-md-5 px-3 bg-light-grey">
+    <section class="section-whyus px-3 bg-light-grey">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-4 text-left mb-3 mb-md-0 pe-lg-0">
-                    <h2 class="text-blue fw-bolder fw-md-bold">Think Smarter.</h2>
-                    <h2 class="text-blue fw-bolder fw-md-bold">Grow Faster.</h2>
-                    <h2 class="text-blue fw-bolder fw-md-bold">Compete Harder.</h2>
+                    <h2 class="text-blue fw-bold mb-2">Think Smarter.</h2>
+                    <h2 class="text-blue fw-bold mb-2">Grow Faster.</h2>
+                    <h2 class="text-blue fw-bold mb-2">Compete Harder.</h2>
                 </div>
                 <div class="col-12 col-lg-6 ps-lg-0">
                     <h4 class="text-dark fw-bolder d-none d-lg-block">
                         Why Us?
                     </h4>
-                    <p class="text-orange d-block d-lg-none fw-bolder mb-1">Why us?</p>
-                    <p class="text-blue">
+                    <p class="text-orange d-block d-lg-none fw-bolder mb-3">Why us?</p>
+                    <p class="text-blue mb-0 mb-lg-3">
                         We believe if you control your processes, you control your business.
                     </p>
-                    <p class="text-blue">
+                    <p class="text-blue mb-3">
                         We streamline your systems, optimise your processes, in-crease your efficiency
                         increase your efficiency. Putting you back in control. And we just happen to do it
                         through powerful technology and software.
                     </p>
                     <p class="text-blue mb-4">
                         Every Geidans Solutions project has shown a positive ROI
-                        Within the first 12 monthes. You see tangible benegits to you bottom line fast.
+                        Within the first 12 months. You see tangible benefits
+                        to your bottom line fast.
                     </p>
 
                     <button
@@ -204,21 +212,21 @@
     <!-- Section Why us end -->
 
     <!-- Section Geidans-help start -->
-    <section class="section-help py-3 py-md-5 px-4">
+    <section class="section-help px-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 mx-auto">
-                    <h2 class="text-orange text-center text-lg-start fw-bold mb-4 mb-md-5">How we can help</h2>
+                    <h2 class="text-orange text-center text-lg-start fw-bold mb-5">How we can help</h2>
                 </div>
             </div>
             <div class="row mb-4 mb-md-5">
                 <div class="col-lg-9 mx-auto d-flex flex-column align-items-center flex-md-row">
                     <img class="me-0 me-lg-5" src="./assets/Icon images/Systems_icon.png" alt="systems-icon">
                     <div class="section-help-detail text-center text-md-start">
-                        <h2 class="fw-bolder lh-1 text-blue mt-4 mt-lg-0">
+                        <h2 class="fw-bolder lh-1 text-blue mt-2 mt-lg-0 mb-4">
                             Getting your software systems to talk each other
                         </h2>
-                        <p class="text-blue d-none d-md-block mb-1">
+                        <p class="text-blue d-none d-md-block mb-3">
                             Getting software systems to talk each other is as important as getting people
                             to communicate properly
                         </p>
@@ -230,10 +238,10 @@
                 <div class="col-lg-9 mx-auto d-flex flex-column flex-md-row align-items-center">
                     <img class="me-0 me-lg-5" src="./assets/Icon images/Building_icon.png" alt="systems-icon">
                     <div class="section-help-detail text-center text-md-start">
-                        <h2 class="fw-bolder lh-1 text-blue mt-4 mt-lg-0">
+                        <h2 class="fw-bolder lh-1 text-blue mt-2 mt-lg-0 mb-4">
                             Building software that suits your business
                         </h2>
-                        <p class="text-blue d-none d-md-block mb-1">
+                        <p class="text-blue d-none d-md-block mb-3">
                             Our technical development team build bespoke applications that fit your business
                             and nobody's else.
                         </p>
@@ -243,10 +251,10 @@
             </div>
             <div class="row mb-4 mb-md-5">
                 <div class="col-lg-9 mx-auto d-flex flex-column flex-md-row align-items-center">
-                    <img class="me-0 me-lg-5 " src="./assets/Icon images/Move_icon.png" alt="systems-icon">
+                    <img class="me-0 me-lg-5" src="./assets/Icon images/Move_icon.png" alt="systems-icon">
                     <div class="section-help-detail text-center text-md-start ">
-                        <h2 class="fw-bolder lh-1 text-blue mt-4 mt-lg-0">What you need to move your data</h2>
-                        <p class="text-blue d-none d-md-block mb-1">
+                        <h2 class="fw-bolder lh-1 text-blue mt-2 mt-lg-0 mb-4">What you need to move your data</h2>
+                        <p class="text-blue d-none d-md-block mb-3">
                             we have 20 years' experience in shifting data safely
                             so we know what we're doing.
                         </p>
@@ -258,10 +266,10 @@
                 <div class="col-lg-9 mx-auto d-flex flex-column flex-md-row align-items-center">
                     <img class="me-0 me-lg-5" src="./assets/Icon images/Upgrade_icon.png" alt="systems-icon">
                     <div class="section-help-detail">
-                        <h2 class="fw-bolder lh-1 text-blue text-center text-md-start mt-4 mt-lg-0">
+                        <h2 class="fw-bolder lh-1 text-blue text-center text-md-start mt-2 mt-lg-0">
                             Making current software good as new
                         </h2>
-                        <p class="text-blue d-none d-md-block mb-1">
+                        <p class="text-blue d-none d-md-block mb-3">
                             if you need to update your existing system rather than invest in a
                             brand new one, we can refresh and rebund it.
                         </p>
@@ -275,13 +283,13 @@
 
 
     <!-- Section Solutions start  -->
-    <section class="py-md-5 px-3 section-solution">
+    <section class="section-solution px-3">
         <div class="container">
             <div class="row d-none d-md-flex">
                 <div class="col-12 col-lg-4 d-flex flex-row flex-lg-column">
-                    <h3 class="text-orange fw-bolder me-2">Dynamic.</h3>
-                    <h3 class="text-orange fw-bolder me-2">Flexible.</h3>
-                    <h3 class="text-orange fw-bolder">Fast.</h3>
+                    <h3 class="text-orange fw-bolder me-2 mb-0">Dynamic.</h3>
+                    <h3 class="text-orange fw-bolder me-2 mb-0">Flexible.</h3>
+                    <h3 class="text-orange fw-bolder mb-0">Fast.</h3>
                 </div>
                 <div class="col-12 col-lg-7 ">
                     <h3 class="fw-bolder text-white mb-4">
@@ -307,7 +315,7 @@
                         years' experience in soling the process issues that hold many SMEs
                         back from achieving real growth
                     </p>
-                    <p class="text-white">
+                    <p class="text-white mb-0">
                         SME owners are can-do, make-it-happen people.
                         <span class="text-orange">So are we</span>
                     </p>
@@ -322,13 +330,22 @@
     <section class="section-contact px-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
-                    <h3 class="text-blue fw-md-bolder">
+                <div class="col-md-7 d-none d-lg-block">
+                    <h3 class="text-blue fw-bold mb-3 ">
                         Want to work better, grow faster and compete on a bigger playing field?
                     </h3>
-                    <h3 class="text-white fw-bolder lh-1">
+                    <h3 class="text-white fw-bolder lh-1 mb-0">
                         Give us a call on
                         <span class="text-blue d-block d-md-inline-block">+44 (0) 3333 444 151</span>
+                    </h3>
+                </div>
+                <div class="col-md-7 d-block d-lg-none">
+                    <h3 class="text-blue mb-0 ">
+                        Want to work better, grow faster and compete on a bigger playing field?
+                    </h3>
+                    <h3 class="text-blue fw-bolder lh-1 mb-0">
+                        Give us a call on
+                        <span class="d-block d-md-inline-block">+44 (0) 3333 444 151</span>
                     </h3>
                 </div>
             </div>
@@ -337,43 +354,46 @@
     <!-- Section Contact end -->
 
     <!-- Footer start  -->
-    <footer class="footer bg-blue pt-4 pb-5 px-3 px-lg-0">
+    <footer class="footer bg-blue py-5 px-3 px-lg-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <h5 class="text-white fw-bolder text-uppercase">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="text-white fw-bold text-uppercase mb-4">
                         get in touch
                     </h5>
-                    <a href="#" class="text-white text-decoration-none d-block mb-2">
+                    <a href="#" class="fw-light text-white text-decoration-none d-block mb-3">
                         <span><i class="fa fa-phone-alt"></i></span>
                         <span class="ms-2">+44 (0) 3333 444 151</span>
                     </a>
-                    <a href="#" class="text-white text-decoration-none d-block mb-2">
+                    <a href="#" class="fw-light text-white text-decoration-none d-block mb-3">
                         <img src="./assets/Icon images/Email_icon.png" alt="" class="email-icon">
                         <span class="ms-2">hello@geidans.co.uk</span>
                     </a>
-                    <p class="text-white mb-0">Address line 1</p>
-                    <p class="text-white mb-0">Address line 2</p>
-                    <p class="text-white mb-0">Address line 3</p>
+                    <p class="text-white mb-2 fw-light">Address line 1</p>
+                    <p class="text-white mb-2 fw-light">Address line 2</p>
+                    <p class="text-white mb-0 fw-light">Address line 3</p>
                 </div>
                 <div class="col-lg-4 d-none d-lg-block ">
-                    <h5 class="text-white fw-bolder text-uppercase">
+                    <h5 class="text-white fw-bold text-uppercase mb-4">
                         link column here
                     </h5>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-2">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-3">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-3">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-3">Link 1</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block">Link 1</a>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <h5 class="text-white fw-bolder text-uppercase mt-4 mt-md-0">
+                    <h5 class="text-white fw-bolder text-uppercase mt-4 mt-md-0 mb-4">
                         services
                     </h5>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Systems integration</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Bespoke applications</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Consulting</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Data migration</a>
-                    <a href="#" class="text-decoration-none text-white d-block mb-0 mb-lg-2">Application refactoring</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Systems
+                        integration</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Bespoke
+                        applications</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Consulting</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0 mb-lg-3">Data migration</a>
+                    <a href="#" class="fw-light text-decoration-none text-white d-block mb-0">Application
+                        refactoring</a>
                 </div>
             </div>
         </div>
