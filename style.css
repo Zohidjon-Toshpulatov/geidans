@@ -91,6 +91,10 @@ body{
 }
 
 
+.contact-page-form input{
+    height: 96px;
+}
+
 
 @media only screen and (max-width: 768px) {
     .logo{
@@ -436,13 +440,13 @@ body{
     }
 
     .card{
-        height: 370px;
+        height: 400px;
     }
 
     .card-img-top{
         width: 70%;
         margin: 35px auto 0 auto;
-        height: 200px;
+        height: 250px;
     }
     
     .software-icon{
