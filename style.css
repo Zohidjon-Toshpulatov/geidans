@@ -60,11 +60,6 @@ body{
 }
 
 
-.vacancie-card{
-    border-top: 2px solid #87C7EC;
-}
-
-
 .page-top-connect .email-icon,
 .page-top-connect .linkedin-icon{
     width: 25px;
@@ -91,6 +86,32 @@ body{
 }
 
 
+.home-header,
+.whatwedo-header,
+.about-header,
+.contact-header, 
+.whyus-header,
+.team-header{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vacancie-card-1{
+    margin-top: 47px;
+}
+
+.vacancie-card-1,.vacancie-card-2{
+    border-top: 2px solid #87C7EC;
+}
+
+
+.btn-view-detail{
+    font-size: 20px;
+    padding: 14px 24px;
+}
+
+
 .contact-page-form input{
     height: 96px;
 }
@@ -104,13 +125,10 @@ body{
     /* Home-page start */
     .home-header{
         background-image: url('./assets/GS_Website_1_Home_RESPONSIVE_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
-    .header-content{
-        padding: 90px 0 110px 0; 
+    .home-header .header-content{
+        padding: 50px 0 110px 0; 
     }
 
      .section-problem-solver{
@@ -179,9 +197,6 @@ body{
 
     .section-contact{
         background-image: url('./assets/section-contact.png');
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -202,9 +217,10 @@ body{
     /* What we do page start*/
     .whatwedo-header{
         background-image: url('./assets/GS_Website_1_WhatWeDo_RESPONSIVE_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+
+    .whatwedo-header .header-content{
+        padding: 40px 0 204px 0;
     }
 
     .software-icon{
@@ -250,37 +266,60 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .whyus-header-content{
+        padding-bottom: 217px;
+    }
+
+    .whyus-section-main{
+        padding: 60px 0;
+    }
     /* why us page end */
 
      /* About page start  */
     .about-header{
         background-image: url('./assets/GS_Website_3_OurBackground_RESPONSIVE_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
+
+    .about-header .header-content{
+        padding: 40px 0 176px 0;
+    }
+
     /* About page end */
 
     /* Career page start  */
     .career-header{
         background-image: url('./assets/GS_Website_4_Careers_RESPONSIVE_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
-    .btn-view-detail{
-        width: 100%;
+    .career-header .header-content{
+        padding: 30px 0 190px 0;
     }
+
+    .career-main-section{
+        padding-top: 88px;
+        padding-bottom: 54px;
+    }
+    
+    .card-img-top{
+        height: 290px;
+    }
+
+    .card-img-top .video{
+        height: 100%;
+    }
+
     /* Career page end */
 
      /* Team page start  */
      .team-header{
         background-image: url('./assets/GS_Website_3_SeniorTeam_RESPONSIVE_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
      }
+
+     .team-header-content{
+        padding: 15px 0 50px 0;
+    }
+
 
     .team-card .card-top{
         height: 300px;
@@ -288,7 +327,7 @@ body{
     }
 
     .team-card .card-body{
-        background-color: #ddd9d6;
+        background-color: #D5D0CC;
     }
 
     .team-card .card-top-img{
@@ -304,12 +343,11 @@ body{
     /* Contact Page start  */
     .contact-header{
         background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
-    
+    .contact-header-content{
+        padding: 17px 0 70px 0;
+    }
 
     .btn-submit{
         width: 100%;
@@ -317,26 +355,19 @@ body{
     /* Contact Page end */
 }
 
-@media screen and (min-width: 789px){
+@media screen and (min-width: 769px){
     .logo{
          width: 385px;
      }
-    /* Section review start  */
-    
-    /* Section review start  */
-
 
     /* Home-page start */
     .home-header{
         background-image: url('./assets/GS_Website_1_Home_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
 
-    .header-content{
-        padding: 129px 0 229px 0; 
+    .home-header .header-content{
+        padding: 66px 0 229px 0; 
     }
 
     .section-problem-solver{
@@ -374,15 +405,10 @@ body{
         font-family: 'Passion One', cursive;
     }
 
-    .section-review-heading{
-        line-height: 90%;
-    }
-
     .section-review .left-quote{
         margin-top: 2.5rem;
         font-size: 9rem;
         line-height: 20%;
-
     }
 
     .star-icon{
@@ -409,19 +435,13 @@ body{
 
     .section-solution{
         background-image: url('./assets/GS_Website_1_Home_motherboard_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
     .section-contact{
         background-image: url('./assets/GS_Website_1_Home_Want_to_work_better_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
-    .footer .email-icon{
+    .email-icon{
         width: 25px;
     }
 
@@ -434,9 +454,10 @@ body{
     /* What we do page start*/
     .whatwedo-header{
         background-image: url('./assets/GS_Website_2_WhatWeDo_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+
+    .whatwedo-header .header-content{
+        padding: 50px 0 158px 0;
     }
 
     .card{
@@ -486,38 +507,43 @@ body{
 
     .about-header{
         background-image: url('./assets/GS_Website_3_OurBackground_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+
+    .about-header .header-content{
+        padding: 60px 0 186px 0;
     }
     /* About page end */
 
     /* Career page start  */
     .career-header{
         background-image: url('./assets/GS_Website_2_WhatWeDo_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
-    
+    .career-main-section{
+        padding-top: 98px;
+        padding-bottom: 80px;
+    }
+
+    .vacancie-card-1{
+        margin-top: 47px;
+    }
+
 
     .career-card .card-img-top{
-        height: 300px;
+        height: 350px;
     }
 
     .career-card .video{
         height: 100%;
     }
+
+
     
     /* Career page end */
 
     /* Contact Page start  */
     .contact-header{
         background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
      }
 
     .btn-submit{
@@ -528,17 +554,18 @@ body{
     /* Team page start  */
     .team-header{
         background-image: url('./assets/GS_Website_3_SeniorTeam_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+
+    .team-header-content{
+        padding: 52px 0 118px 0;
     }
 
     .team-card{
-        height: 700px;
+        height: 630px;
     }
 
     .team-card .card-top{
-        height: 350px;
+        height: 410px;
         position: relative;
     }
 
@@ -548,34 +575,18 @@ body{
     }
 
     .team-card .card-top-overlay{
-        position: absolute;
         top: 0;
-        z-index: 20;
+        z-index: 19;
         width: 100%;
         height: 100%;
-        background-size: cover;
+        display: none;
     }
 
     .team-card .card-top-overlay p{
-        position: absolute;
         bottom: 10px;
-        left: 10px;
-        right: 10px;
-    }
-
-    .team-card .card-top-overlay-1{
-        background-image: url('./assets/Teamportraits/Andrew_portrait_DARK.png');
-        display: none;
-    }
-
-    .team-card .card-top-overlay-2{
-        background-image: url('./assets/Teamportraits/Jana_portrait_DARK.png');
-        display: none;
-    }
-
-    .team-card .card-top-overlay-3{
-        background-image: url('./assets/Teamportraits/Pavel_portrait_DARK.png');
-        display: none;
+        left: 20px;
+        right: 20px;
+        z-index: 20;
     }
 
     .card-top:hover .card-top-overlay{
@@ -586,22 +597,19 @@ body{
     /* why us page start */
     .whyus-header{
         background-image: url('./assets/GS_Website_3_WhyUs_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+
+    .whyus-header-content{
+        padding-bottom: 147px;
+    }
+
+    .whyus-section-main{
+        padding: 99px 0 151px 0;
+    }
+
+    .img-quote{
+        width: 20%;
     }
     /* why us page end */
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
