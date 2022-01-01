@@ -127,7 +127,7 @@ body{
         background-image: url('./assets/GS_Website_1_Home_RESPONSIVE_banner.png');
     }
 
-    .home-header .header-content{
+    .home-header-content{
         padding: 50px 0 110px 0; 
     }
 
@@ -219,7 +219,7 @@ body{
         background-image: url('./assets/GS_Website_1_WhatWeDo_RESPONSIVE_banner.png');
     }
 
-    .whatwedo-header .header-content{
+    .whatwedo-header-content{
         padding: 40px 0 204px 0;
     }
 
@@ -281,7 +281,7 @@ body{
         background-image: url('./assets/GS_Website_3_OurBackground_RESPONSIVE_banner.png');
     }
 
-    .about-header .header-content{
+    .about-header-content{
         padding: 40px 0 176px 0;
     }
 
@@ -292,8 +292,8 @@ body{
         background-image: url('./assets/GS_Website_4_Careers_RESPONSIVE_banner.png');
     }
 
-    .career-header .header-content{
-        padding: 30px 0 190px 0;
+    .career-header-content{
+        padding: 50px 0 197px 0;
     }
 
     .career-main-section{
@@ -366,7 +366,7 @@ body{
     }
 
 
-    .home-header .header-content{
+    .home-header-content{
         padding: 66px 0 229px 0; 
     }
 
@@ -456,7 +456,7 @@ body{
         background-image: url('./assets/GS_Website_2_WhatWeDo_banner.png');
     }
 
-    .whatwedo-header .header-content{
+    .whatwedo-header-content{
         padding: 50px 0 158px 0;
     }
 
@@ -509,14 +509,18 @@ body{
         background-image: url('./assets/GS_Website_3_OurBackground_banner.png');
     }
 
-    .about-header .header-content{
+    .about-header-content{
         padding: 60px 0 186px 0;
     }
     /* About page end */
 
     /* Career page start  */
     .career-header{
-        background-image: url('./assets/GS_Website_2_WhatWeDo_banner.png');
+        background-image: url('./assets/career-header.png');
+    }
+
+    .career-header-content{
+        padding: 90px 0 156px 0;
     }
 
     .career-main-section{
