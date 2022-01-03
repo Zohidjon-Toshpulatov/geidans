@@ -49,6 +49,11 @@ body{
     font-size: 17px;
 }
 
+p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
 .header-nav .nav-link{
     font-size: 17px;
 }
@@ -361,10 +366,12 @@ body{
      }
 
     /* Home-page start */
+
     .home-header{
         background-image: url('./assets/GS_Website_1_Home_banner.png');
     }
 
+    .home-page 
 
     .home-header-content{
         padding: 66px 0 229px 0; 
@@ -374,6 +381,8 @@ body{
         padding-top: 85px;
         padding-bottom: 50px;
     }
+
+
     .section-review{
         padding-top: 85px;
         padding-bottom: 95px; 
