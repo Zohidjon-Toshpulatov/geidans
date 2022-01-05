@@ -97,16 +97,7 @@ p{
 }
 
 
-.home-header,
-.whatwedo-header,
-.about-header,
-.contact-header, 
-.whyus-header,
-.team-header{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 .vacancie-card-1{
     margin-top: 47px;
@@ -132,6 +123,17 @@ p{
 @media only screen and (max-width: 768px) {
     .logo{
         width: 200px;
+    }
+
+    .home-header,
+    .whatwedo-header,
+    .about-header,
+    .contact-header, 
+    .whyus-header,
+    .team-header{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     /* Home-page start */
