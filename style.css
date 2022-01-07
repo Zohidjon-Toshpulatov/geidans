@@ -45,7 +45,7 @@ body{
     border: 1px solid #243F60;
 }
 
-.btn{
+.btn, .nav-link{
     font-size: 17px;
 }
 
@@ -55,12 +55,9 @@ p{
 }
 
 
-.header-nav .nav-link{
-    font-size: 17px;
-}
+
 
 .header-content-btn{
-    font-size: 17px;
     width: 197px;
     height: 57px;
 }
@@ -91,10 +88,15 @@ p{
     height: 22px;
 }
 
-.footer-copyright p{
+.section-legal p{
     font-size: 20px;
     font-weight: 400;
 }
+
+.email-icon{
+    width: 25px;
+}
+
 
 
 .home-header,
@@ -113,7 +115,8 @@ p{
     margin-top: 47px;
 }
 
-.vacancie-card-1,.vacancie-card-2{
+.vacancie-card-1, 
+.vacancie-card-2{
     border-top: 2px solid #87C7EC;
 }
 
@@ -128,6 +131,15 @@ p{
     height: 96px;
 }
 
+.section-footer a, 
+.section-footer p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+}
+
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -140,23 +152,30 @@ p{
         background-image: url('./assets/GS_Website_1_Home_RESPONSIVE_banner.png');
     }
 
-    .home-header-content{
+    .home-header .header-content{
         padding: 50px 0 110px 0; 
     }
 
-     .section-problem-solver{
+     .section-basic{
         padding-top: 44px;
         padding-bottom: 64px;
     }
-    .section-review{
+
+    .section-feedback{
         padding-top: 60px;
         padding-bottom: 40px; 
     }
-    .section-whyus{
+    
+    .section-feedback .left-quote,
+    .section-feedback .right-quote{
+        font-family: 'Passion One', cursive;
+    }
+    
+    .section-inverted-basic{
         padding-top: 40px;
         padding-bottom: 60px;
     }
-    .section-help{
+    .section-icons-list{
         padding-top: 58px;
         padding-bottom: 53px;
     }
@@ -179,60 +198,59 @@ p{
         width: 25px;
     }
 
-    .section-help img{
+    .section-icons-list img{
         width: 200px;
     }
 
-    .section-hep-title{
+    .section-icons-list-title{
         font-size: 29px;
     }
 
-    .section-help-heading{
+    .section-icons-list-heading{
         font-size: 22px;
     }
 
-    /* Section review start  */
-    .section-review .left-quote,
-    .section-review .right-quote{
-        font-family: 'Passion One', cursive;
-        line-height: 100%;
-    }
+    
 
-    .fa-star, .fa-star-half{
-        font-size: 40px;
-    }
-    /* Section review end  */
-
-    .section-solution{
+    .section-highlighted{
+        background-color: #365072;
         padding-top: 40px;
         padding-bottom: 60px;
     }
 
-    .section-contact{
+    .section-call-to-action{
         background-image: url('./assets/section-contact.png');
         padding-top: 40px;
         padding-bottom: 40px;
     }
 
 
-    .footer .email-icon{
-        width: 25px;
-    }
-
-    .footer-copyright{
+    .section-footer, 
+    .section-legal{
         padding-bottom: 100px;
     }
 
-    .footer-copy-link{
+    .section-footer a{
+        margin-bottom: 7px;
+    }
+
+    .section-footer .phone-link,
+    .section-footer .email-link{
+        margin-bottom: 37px;
+    } 
+
+    .section-legal link{
         border: none !important;
     }
+    /* Home page end  */
+
 
     /* What we do page start*/
     .whatwedo-header{
         background-image: url('./assets/GS_Website_1_WhatWeDo_RESPONSIVE_banner.png');
     }
 
-    .whatwedo-header-content{
+    .whatwedo-header .header-content{
         padding: 40px 0 204px 0;
     }
 
@@ -244,29 +262,9 @@ p{
         width: 100%;
     }
 
-     .whatwedo-section-1{
+     .section-icons-card{
         padding-top: 72px;
         padding-bottom: 54px;
-    }
-
-    .whatwedo-section-2{
-        padding-top: 62px;
-        padding-bottom: 52px;
-    }
-
-    .whatwedo-section-3{
-        padding-top: 41px;
-        padding-bottom: 50px;
-    }
-
-    .whatwedo-section-4{
-        padding-top: 35px;
-        padding-bottom: 58px;
-    }
-
-    .whatwedo-section-5{
-        padding-top: 42px;
-        padding-bottom: 58px;
     }
 
 
@@ -280,7 +278,7 @@ p{
         background-repeat: no-repeat;
     }
 
-    .whyus-header-content{
+    .whyus-header .header-content{
         padding-bottom: 217px;
     }
 
@@ -294,7 +292,7 @@ p{
         background-image: url('./assets/GS_Website_3_OurBackground_RESPONSIVE_banner.png');
     }
 
-    .about-header-content{
+    .about-header .header-content{
         padding: 40px 0 176px 0;
     }
 
@@ -305,7 +303,7 @@ p{
         background-image: url('./assets/GS_Website_4_Careers_RESPONSIVE_banner.png');
     }
 
-    .career-header-content{
+    .career-header .header-content{
         padding: 50px 0 197px 0;
     }
 
@@ -329,7 +327,7 @@ p{
         background-image: url('./assets/GS_Website_3_SeniorTeam_RESPONSIVE_banner.png');
      }
 
-     .team-header-content{
+     .team-header .header-content{
         padding: 15px 0 50px 0;
     }
 
@@ -358,7 +356,7 @@ p{
         background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
     }
 
-    .contact-header-content{
+    .contact-header .header-content{
         padding: 17px 0 70px 0;
     }
 
@@ -379,50 +377,27 @@ p{
         background-image: url('./assets/GS_Website_1_Home_banner.png');
     }
 
-    .home-page 
-
-    .home-header-content{
+    .home-header .header-content{
         padding: 66px 0 229px 0; 
     }
 
-    .section-problem-solver{
+    .section-basic{
         padding-top: 85px;
         padding-bottom: 50px;
     }
 
 
-    .section-review{
+    .section-feedback{
         padding-top: 85px;
         padding-bottom: 95px; 
     }
-    .section-whyus{
-        padding-top: 95px;
-        padding-bottom: 60px;
-    }
 
-    .btn-whyus{
-        font-size: 20px;
-    }
-
-    .section-help{
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .section-solution{
-        padding-top: 85px;
-        padding-bottom: 85px;
-    }
-    .section-contact{
-        padding-top: 95px;
-        padding-bottom: 95px;
-    }
-
-    .section-review .left-quote,
-    .section-review .right-quote{
+    .section-feedback .left-quote,
+    .section-feedback .right-quote{
         font-family: 'Passion One', cursive;
     }
 
-    .section-review .left-quote{
+    .section-feedback .left-quote{
         margin-top: 2.5rem;
         font-size: 9rem;
         line-height: 20%;
@@ -438,31 +413,57 @@ p{
         width: 35px;
     }
 
-    .section-help img{
+    .section-inverted-basic{
+        padding-top: 95px;
+        padding-bottom: 60px;
+    }
+
+    .btn-whyus{
+        font-size: 20px;
+    }
+
+    .section-icons-list{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .section-icons-list img{
         width: 250px;
     }
 
-    .section-hep-title{
+    .section-icons-list-title{
         font-size: 40px;
     }
 
-    .section-help-heading{
+    .section-icons-list-heading{
         font-size: 34px;
     }
 
-    .section-solution{
+
+
+    .section-highlighted{
+        padding-top: 85px;
+        padding-bottom: 85px;
         background-image: url('./assets/GS_Website_1_Home_motherboard_banner.png');
     }
-
-    .section-contact{
-        background-image: url('./assets/GS_Website_1_Home_Want_to_work_better_banner.png');
+    .section-call-to-action{
+        padding-top: 95px;
+        padding-bottom: 95px;
+        background-image: url('./assets/GS_Website_1_Home_Want_to_work_better_banner.png')
     }
 
-    .email-icon{
-        width: 25px;
+    .section-footer a{
+        margin-bottom: 32px;
     }
 
-    .footer-copy-link{
+    .section-footer .phone-link,
+    .section-footer .email-link{
+        margin-bottom: 37px;
+    } 
+
+    
+
+    .section-legal .link{
         border-right: 2px solid white;
     }
 
@@ -473,16 +474,16 @@ p{
         background-image: url('./assets/GS_Website_2_WhatWeDo_banner.png');
     }
 
-    .whatwedo-header-content{
+    .whatwedo-header .header-content{
         padding: 50px 0 158px 0;
     }
 
-    .card{
-        height: 400px;
+    .section-icons .card{
+        height: 410px;
     }
 
-    .card-img-top{
-        width: 70%;
+    .section-icons .card-img-top{
+        width: 80%;
         margin: 35px auto 0 auto;
         height: 250px;
     }
@@ -490,33 +491,8 @@ p{
     .software-icon{
         width: 267px;
         height: 268px;
-
     }
 
-    .whatwedo-section-1{
-        padding-top: 98px;
-        padding-bottom: 114px;
-    }
-
-    .whatwedo-section-2{
-        padding-top: 84px;
-        padding-bottom: 102px;
-    }
-
-    .whatwedo-section-3{
-        padding-top: 68px;
-        padding-bottom: 110px;
-    }
-
-    .whatwedo-section-4{
-        padding-top: 68px;
-        padding-bottom: 111px;
-    }
-
-    .whatwedo-section-5{
-        padding-top: 80px;
-        padding-bottom: 94px;
-    }
 
     /* What we do page end*/
 
@@ -526,7 +502,7 @@ p{
         background-image: url('./assets/GS_Website_3_OurBackground_banner.png');
     }
 
-    .about-header-content{
+    .about-header .header-content{
         padding: 60px 0 186px 0;
     }
     /* About page end */
@@ -536,14 +512,10 @@ p{
         background-image: url('./assets/career-header.png');
     }
 
-    .career-header-content{
+    .career-header .header-content{
         padding: 90px 0 156px 0;
     }
 
-    .career-main-section{
-        padding-top: 98px;
-        padding-bottom: 80px;
-    }
 
     .vacancie-card-1{
         margin-top: 47px;
@@ -577,7 +549,7 @@ p{
         background-image: url('./assets/GS_Website_3_SeniorTeam_banner.png');
     }
 
-    .team-header-content{
+    .team-header .header-content{
         padding: 52px 0 118px 0;
     }
 
@@ -620,11 +592,11 @@ p{
         background-image: url('./assets/GS_Website_3_WhyUs_banner.png');
     }
 
-    .whyus-header-content{
+    .whyus-header .header-content{
         padding-bottom: 147px;
     }
 
-    .whyus-section-main{
+    .section-split{
         padding: 99px 0 151px 0;
     }
 
