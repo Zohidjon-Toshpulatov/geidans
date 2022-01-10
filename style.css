@@ -49,7 +49,7 @@ body{
     font-size: 17px;
 }
 
-p{
+p, a{
     font-size: 22px;
     font-weight: 500;
 }
@@ -105,10 +105,20 @@ p{
 .about-header,
 .contact-header, 
 .whyus-header,
-.team-header{
+.team-header,
+.section-highlighted,
+.section-call-to-action{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.whatwedo-header p,
+.about-header p,
+.career-header p,
+.whyus-header p,
+.team-header p{
+    font-size: 20px;
 }
 
 .vacancie-card-1{
@@ -141,10 +151,9 @@ p{
 
 
 
-
-@media only screen and (max-width: 768px) {
+@media screen and ( max-width: 768px) {
     .logo{
-        width: 200px;
+        width: 330px;
     }
 
     /* Home-page start */
@@ -156,19 +165,41 @@ p{
         padding: 50px 0 110px 0; 
     }
 
+    .home-header h1{
+        font-size: 45px;
+    }
+    .home-header h5{
+        font-size: 21px;
+    }
+
      .section-basic{
         padding-top: 44px;
         padding-bottom: 64px;
+    }
+    .section-basic h4{
+        font-size: 23px;
     }
 
     .section-feedback{
         padding-top: 60px;
         padding-bottom: 40px; 
     }
+
+    .section-feedback-heading h2{
+        font-size: 25px;
+    }
     
     .section-feedback .left-quote,
     .section-feedback .right-quote{
         font-family: 'Passion One', cursive;
+    }
+    .star-icon{
+        width: 45px;
+        height: 45px;
+    }
+    .star-icon-half{
+        height: 45px;
+        width: 25px;
     }
     
     .section-inverted-basic{
@@ -179,6 +210,15 @@ p{
         padding-top: 58px;
         padding-bottom: 53px;
     }
+    .section-icons-list img{
+        width: 220px;
+    }
+    .section-icons-list-title{
+        font-size: 29px;
+    }
+    .section-icon-list-heading{
+        font-size: 22px;
+    }
     .section-solution{
         background-color: #365072;
         padding-top: 49px;
@@ -188,40 +228,24 @@ p{
         padding-top: 45px;
         padding-bottom: 60px;
     }
-
-    .star-icon{
-        width: 45px;
-        height: 45px;
-    }
-    .star-icon-half{
-        height: 45px;
-        width: 25px;
-    }
-
-    .section-icons-list img{
-        width: 200px;
-    }
-
-    .section-icons-list-title{
-        font-size: 29px;
-    }
-
-    .section-icons-list-heading{
-        font-size: 22px;
-    }
-
     
-
     .section-highlighted{
         background-color: #365072;
         padding-top: 40px;
         padding-bottom: 60px;
     }
-
     .section-call-to-action{
         background-image: url('./assets/section-contact.png');
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    .section-basic h2,
+    .section-basic h3,
+    .section-inverted-basic h2,
+    .section-inverted-basic h3,
+    .section-highlighted h2{
+        font-size: 29px;
     }
 
 
@@ -260,6 +284,8 @@ p{
     
     .btn-book-call{
         width: 100%;
+        height: 75px;
+        font-size: 20px;
     }
 
      .section-icons-card{
@@ -267,25 +293,11 @@ p{
         padding-bottom: 54px;
     }
 
+   
 
     /* What we do page end*/
 
-    /* why us page start */
-    .whyus-header{
-        background-image: url('./assets/GS_Website_3_WhyUs_RESPONSIVE_banner.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .whyus-header .header-content{
-        padding-bottom: 217px;
-    }
-
-    .whyus-section-main{
-        padding: 60px 0;
-    }
-    /* why us page end */
+    
 
      /* About page start  */
     .about-header{
@@ -307,9 +319,34 @@ p{
         padding: 50px 0 197px 0;
     }
 
-    .career-main-section{
+    .whatwedo-header h2,
+    .about-header h2,
+    .career-header h2,
+    .whyus-header h2,
+    .team-header h2{
+        font-size: 37px;
+    }
+
+    .whatwedo-header p,
+    .about-header p,
+    .career-header p,
+    .whyus-header p,
+    .team-header p{
+        font-size: 20px;
+    }
+
+    .section-split{
         padding-top: 88px;
         padding-bottom: 54px;
+    }
+
+    
+    .section-split h2.text-blue{
+        font-size: 34px;
+    }
+    .section-contact h3.text-blue,
+    .section-split h3.text-blue{
+        font-size: 23px;
     }
     
     .card-img-top{
@@ -322,6 +359,47 @@ p{
 
     /* Career page end */
 
+    /* Contact Page start  */
+    .contact-header{
+        background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
+    }
+
+    .contact-header .header-content{
+        padding: 17px 0 70px 0;
+    }
+
+    .section-contact-form{
+        padding: 48px 0 52px 0;
+    }
+
+    .section-contact-form input.form-control{
+        height: 96px;
+    }
+
+    .btn-submit{
+        width: 100%;
+        height: 96px;
+        font-size: 25px;
+        margin-top: 48px;
+    }
+    /* Contact Page end */
+
+    /* why us page start */
+    .whyus-header{
+        background-image: url('./assets/GS_Website_3_WhyUs_RESPONSIVE_banner.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .whyus-header .header-content{
+        padding-bottom: 217px;
+    }
+
+    .whyus-section-main{
+        padding: 60px 0;
+    }
+    /* why us page end */
      /* Team page start  */
      .team-header{
         background-image: url('./assets/GS_Website_3_SeniorTeam_RESPONSIVE_banner.png');
@@ -331,6 +409,9 @@ p{
         padding: 15px 0 50px 0;
     }
 
+    .section-team-images{
+        padding-top: 44px;
+    }
 
     .team-card .card-top{
         height: 300px;
@@ -351,26 +432,31 @@ p{
     }
     /* Team page end */
 
-    /* Contact Page start  */
-    .contact-header{
-        background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
-    }
-
-    .contact-header .header-content{
-        padding: 17px 0 70px 0;
-    }
-
-    .btn-submit{
-        width: 100%;
-    }
-    /* Contact Page end */
+    
 }
+
+@media screen and ( max-width: 480px) {
+    .logo{
+        width: 230px;
+    }
+}
+
 
 @media screen and (min-width: 769px){
     .logo{
          width: 385px;
      }
 
+    .whatwedo-header h2,
+    .about-header h2,
+    .career-header h2,
+    .whyus-header h2,
+    .team-header h2{
+        font-size: 34px;
+    }
+
+    
+     
     /* Home-page start */
 
     .home-header{
@@ -386,11 +472,15 @@ p{
         padding-bottom: 50px;
     }
 
+    .section-basic h3,
+    .section-inverted-basic h3{
+        font-size: 34px;
+    }
 
     .section-feedback{
         padding-top: 85px;
         padding-bottom: 95px; 
-    }
+    } 
 
     .section-feedback .left-quote,
     .section-feedback .right-quote{
@@ -435,17 +525,20 @@ p{
         font-size: 40px;
     }
 
-    .section-icons-list-heading{
+    .section-icon-list-heading{
         font-size: 34px;
     }
-
-
 
     .section-highlighted{
         padding-top: 85px;
         padding-bottom: 85px;
         background-image: url('./assets/GS_Website_1_Home_motherboard_banner.png');
     }
+
+    .section-highlighted h3{
+        font-size: 34px;
+    }
+
     .section-call-to-action{
         padding-top: 95px;
         padding-bottom: 95px;
@@ -460,8 +553,6 @@ p{
     .section-footer .email-link{
         margin-bottom: 37px;
     } 
-
-    
 
     .section-legal .link{
         border-right: 2px solid white;
@@ -478,6 +569,8 @@ p{
         padding: 50px 0 158px 0;
     }
 
+
+
     .section-icons .card{
         height: 410px;
     }
@@ -487,12 +580,22 @@ p{
         margin: 35px auto 0 auto;
         height: 250px;
     }
+
+    .section-icons .card-img-top-sytems{
+        width: 85%;
+        margin: 35px auto 0 auto;
+        height: 250px;
+    }
     
     .software-icon{
         width: 267px;
         height: 268px;
     }
-
+    .btn-book-call{
+        width: 290px;
+        height: 75px;
+        font-size: 20px;
+    }
 
     /* What we do page end*/
 
@@ -516,6 +619,12 @@ p{
         padding: 90px 0 156px 0;
     }
 
+    .section-split h2.text-orange,
+    .section-split h3.text-blue,
+    .section-contact-form h3.text-blue,
+    .section-split h2.text-blue{
+        font-size: 34px;
+    }
 
     .vacancie-card-1{
         margin-top: 47px;
@@ -537,10 +646,19 @@ p{
     /* Contact Page start  */
     .contact-header{
         background-image: url('./assets/GS_Website_5_ContactUs_banner.png');
-     }
+    }
 
-    .btn-submit{
-        width: 100%;
+    .section-contact-form{
+        padding: 90px 0 80px 0;
+    }
+
+    .section-contact-form input.form-control{
+        height: 96px;
+    }
+    .section-contact-form .btn-submit{
+        width: 316px;
+        height: 96px;
+        font-size: 25px;
     }
     /* Contact Page end */
 
@@ -553,8 +671,8 @@ p{
         padding: 52px 0 118px 0;
     }
 
-    .team-card{
-        height: 630px;
+    .section-team-images{
+        padding-top: 90px;
     }
 
     .team-card .card-top{
