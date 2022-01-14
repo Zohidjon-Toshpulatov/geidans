@@ -518,7 +518,7 @@ p, a{
     }
 
     .section-icons-list img{
-        width: 250px;
+        width: 240px;
     }
 
     .section-icons-list-title{
@@ -586,11 +586,22 @@ p, a{
         margin: 35px auto 0 auto;
         height: 250px;
     }
-    
-    .software-icon{
-        width: 267px;
+
+    .software-icon-update{
+        width: 268px;
         height: 268px;
     }
+
+    .software-icon{
+        width: 250px;
+        height: 268px;
+    }
+    
+    .software-icon{
+        width: 250px;
+        height: 268px;
+    }
+
     .btn-book-call{
         width: 290px;
         height: 75px;
